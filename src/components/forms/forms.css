@@ -1,0 +1,71 @@
+.email-input,
+.password-input {
+  /* height: 40vh; */
+  width: 40vw;
+  padding: 0.3rem;
+  /* padding: 1rem; */
+}
+
+.valid-email {
+  /* display: none; */
+  font-size: 0.8rem;
+  color: darkgreen;
+}
+
+.invalid-email {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.hover-popup {
+  display: none;
+}
+
+.password-info {
+  font-size: 0.8rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0rem 0.1rem;
+}
+
+.password-info:hover + .hover-popup {
+  display: block;
+  position: absolute;
+  /* z-index: 1; */
+  /* top: -10px; */
+  left: 35%;
+  background-color: rgba(207, 207, 207);
+  border: 1px solid black;
+}
+
+/* .password-info:hover {} */
+
+.show-or-hide {
+  margin-left: 0.5rem;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.password-strength {
+  font-size: 0.8rem;
+}
+
+.weak {
+  color: red;
+}
+
+.medium {
+  color: rgb(196, 131, 11);
+}
+
+.strong {
+  color: darkgreen;
+}
+
+.submit-button {
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
